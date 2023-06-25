@@ -8,3 +8,18 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 # Arduino Agent
 https://create.arduino.cc/getting-started/plugin/download
+
+
+    delay(500);
+    if (led1) {
+      // Turn on LED
+      neopixel.setBrightness(200);
+      neopixel.setPixelColor(0, 0, 0, 255);
+      neopixel.show();
+    }
+    else 
+    {
+      // Turn off LED
+      neopixel.clear(); 
+      neopixel.show();
+    }
