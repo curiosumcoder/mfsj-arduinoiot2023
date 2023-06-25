@@ -5,3 +5,6 @@ Material de apoyo para el laboratorio: Arduino IoT Cloud: Primeros Pasos, para e
 
 # ESP32
 https://espressif.github.io/arduino-esp32/package_esp32_index.json
+
+# Arduino Agent
+https://create.arduino.cc/getting-started/plugin/download
