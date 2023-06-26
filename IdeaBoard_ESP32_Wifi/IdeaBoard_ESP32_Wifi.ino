@@ -1,5 +1,5 @@
 // https://learn.sparkfun.com/tutorials/esp32-thing-plus-usb-c-hookup-guide/arduino-example-wifi
-// En el Arduino IDE escoger la placa: ESP32 Dev Module
+// En el Arduino IDE escoger la placa: ESP32 Dev Module, y puerto serie correspondiente.
 
 #include <WiFi.h>
 #include <Adafruit_NeoPixel.h>
@@ -13,7 +13,6 @@ constexpr char * hostDomain = "example.com";
 constexpr int hostPort = 80;
 
 constexpr int BUTTON_PIN = 27;
-
 constexpr int PIXEL_PIN = 2;
 
 Adafruit_NeoPixel neopixel(1, PIXEL_PIN, NEO_GRB + NEO_KHZ800);
