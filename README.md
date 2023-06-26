@@ -8,3 +8,20 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 # Arduino Agent
 https://create.arduino.cc/getting-started/plugin/download
+
+
+- Google Chrome
+- https://cloud.arduino.cc/
+  - Hacer registro
+  - Hacer conexión
+- Arduino IoT Cloud Remote
+  - Descargar app móvil
+  - Hacer conexión de teléfono como dispositivo
+
+
+Crear primer Thing
+Devices
+Things
+Dashboards
+
+
